@@ -11,14 +11,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 #%matplotlib inline 
 import os
-from parameters import parameters as pm
 from sklearn.model_selection import train_test_split, KFold, GridSearchCV
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
-from sklearn.neighbors import KNeighborsRegressor
+#from sklearn.neighbors import KNeighborsRegressor
 #from xgboost import XGBRegressor
-from sklearn.neural_network import MLPRegressor
+#from sklearn.neural_network import MLPRegressor
 
 import joblib
 

@@ -1,0 +1,3 @@
+%% for generateing finally test case
+clear all; close all; clc;
+sampples = [1,	5,	1,	16,	1,	17,	1,	14];

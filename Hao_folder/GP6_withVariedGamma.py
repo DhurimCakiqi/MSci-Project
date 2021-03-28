@@ -81,6 +81,7 @@ for feat_flag in  range(len(feature_columns)):
     print(gpr_sub.kernel_)
     gpr_models.append(gpr_sub)
 
+
 y_test_pred = np.zeros(y_test.shape)
 for ix, model in enumerate(gpr_models):
     y_test_pred[:,ix] += model.predict(X_test)
