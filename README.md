@@ -1,16 +1,9 @@
-# trainning-surrogate-6sub-model
-Training regression models as a surrogate 
+Code used for the machine learning model. 
 
-## dataset
+m folder contains all code for training and testing the model,
+GP6_withVariedGamma is used for the 5000 varied gamma case but can also be used for the other varied cases
+m_code_master is used for constant gamma models
+m_Ren is for section 5
 
-10000 sets of parameters: \theta_1, \theta_2, \theta_3, \theta_4
-
-Output features: \alpha_v, \beta_v, \alpha_max, \beta_max, \alpha_min, \beta_min, 
-
-
-
-### Fisrt run
-1. clone respository
-2. pip install -r requirements
-3. Make sure datasets.xlsx in the current directory
-4. run within in jupyter notebook
+Data is generated from sampling folder, 
+For the data used or to try different numbers of parameters Hao_folder-sampling can be used.
